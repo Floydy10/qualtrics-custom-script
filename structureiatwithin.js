@@ -57,18 +57,18 @@ define(['pipAPI', 'https://floydy10.github.io/qualtrics-custom-script/fullbiat.j
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {image : 'blacks.jpg'}, 
+						media : {image : 'dut1.jpg'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{image : 'black1.jpg'}, 
-        			{image : 'black2.jpg'}, 
-        			{image : 'black3.jpg'}, 
-        			{image : 'black4.jpg'}, 
-        			{image : 'black5.jpg'}, 
-        			{image : 'black6.jpg'}
+					{image : 'dut1.jpg'}, 
+        			{image : 'dut2.jpg'}, 
+        			{image : 'dut3.jpg'}, 
+        			{image : 'dut4.jpg'}, 
+        			{image : 'dut5.jpg'}, 
+        			{image : 'dut6.jpg'}
 					], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
@@ -80,25 +80,25 @@ define(['pipAPI', 'https://floydy10.github.io/qualtrics-custom-script/fullbiat.j
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-							media : {image : 'whites.jpg'},  
+							media : {image : 'alb1.jpg'},  
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{image : 'yf1.jpg'}, 
-        			{image : 'yf4.jpg'}, 
-        			{image : 'yf5.jpg'}, 
-        			{image : 'ym2.jpg'}, 
-        			{image : 'ym3.jpg'}, 
-        			{image : 'ym5.jpg'}
+					{image : 'alb1.jpg'}, 
+        			{image : 'alb2.jpg'}, 
+        			{image : 'alb3.jpg'}, 
+        			{image : 'alb4.jpg'}, 
+        			{image : 'alb5.jpg'}, 
+        			{image : 'alb6.jpg'}
 					], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				}
 			],
 			base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/'
+			image : 'https://floydy10.github.io/qualtrics-custom-script/images/'
 				
 			} 
 	});
