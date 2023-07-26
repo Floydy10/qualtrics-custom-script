@@ -89,9 +89,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			},
 			categories : [  //As many categories you need.
 				{
-					name : 'Black people', //Will appear in the data.
+					name : 'Peter Dutton', //Will appear in the data.
 					title : {
-						media : {word : 'Black people'}, //Name of the category presented in the task.
+						media : {word : 'Peter Dutton'}, //Name of the category presented in the task.
 						css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
@@ -113,9 +113,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
 				{
-					name : 'White people', 
+					name : 'Anthony Albanese', 
 					title : {
-						media : {word : 'White people'}, 
+						media : {word : 'Anthony Albanese'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
@@ -138,44 +138,44 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			],
 			attribute1 : 
 			{
-				name : 'Pleasant', 
+				name : 'Truth', 
 				title : {
-					media : {word : 'Pleasant'}, 
+					media : {word : 'Truth'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Joy, Love, Happy, Good'}, 
+						media : {word : 'Honest, Authentic, Accurate, Correct'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Joy'}, 
-					{word : 'Love'}, 
-					{word : 'Happy'}, 
-					{word : 'Good'}
+					{word : 'Honest'}, 
+					{word : 'Authentic'}, 
+					{word : 'Accurate'}, 
+					{word : 'Correct'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2em'}
 			},	
 			attribute2 : 
 			{
-				name : 'Unpleasant', 
+				name : 'Lie', 
 				title : {
-					media : {word : 'Unpleasant'}, 
+					media : {word : 'Lie'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Horrible, Evil, Nasty, Bad'}, 
+						media : {word : 'Deceptive, Fake, Biased, Wrong'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Horrible'}, 
-					{word : 'Nasty'}, 
-					{word : 'Bad'}, 
-					{word : 'Evil'}
+					{word : 'Deceptive'}, 
+					{word : 'Biased'}, 
+					{word : 'Wrong'}, 
+					{word : 'Fake'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2em'} 
