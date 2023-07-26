@@ -5,45 +5,45 @@ define(['pipAPI', 'https://floydy10.github.io/qualtrics-custom-script/fullbiat.j
 	return iatExtension({
 		practiceCategory1 : 
 			{
-				name : 'Others', //Will appear in the data.
+				name : 'Flowers', //Will appear in the data.
 				title : {
-					media : {word : 'Others'}, //Name of the category presented in the task.
+					media : {word : 'Flowers'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 					height : 4, //Height (because we need to know where to put the next item in the title)
 					startStimulus : { 
 					//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {word : 'Dogs, Horses, Cows, Lions'}, 
+						media : {word : 'Daffodil, Daisy, Lilac, Lily'}, 
 						css : {color:'#31b404','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Dogs'}, 
-					{word : 'Horses'}, 
-					{word : 'Lions'}, 
-					{word : 'Cows'}
+					{word : 'Daffodil'}, 
+					{word : 'Daisy'}, 
+					{word : 'Lilac'}, 
+					{word : 'Lily'}
 				], 
 				//Stimulus css (style of the stimuli)
 				stimulusCss : {color:'#31b404','font-size':'2em'}
 			},	
 			practiceCategory2 : 
 			{
-				name : 'Birds', 
+				name : 'Insects', 
 				title : {
-					media : {word : 'Birds'}, 
+					media : {word : 'Insects'}, 
 					css : {color:'#31b404','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Pigeons, Swans, Crows, Ravens'}, 
+						media : {word : 'Bedbug, Centipede, Flea, Moth'}, 
 						css : {color:'#31b404','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Pigeons'}, 
-					{word : 'Swans'}, 
-					{word : 'Crows'}, 
-					{word : 'Ravens'}
+					{word : 'Bedbug'}, 
+					{word : 'Centipede'}, 
+					{word : 'Flea'}, 
+					{word : 'Moth'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#31b404','font-size':'2em'}
