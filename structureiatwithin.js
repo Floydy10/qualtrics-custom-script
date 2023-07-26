@@ -50,9 +50,9 @@ define(['pipAPI', 'https://floydy10.github.io/qualtrics-custom-script/fullbiat.j
 			},
 			categories : [  //As many categories you need.
 				{
-					name : 'Black People', //Will appear in the data.
+					name : 'Peter Dutton', //Will appear in the data.
 					title : {
-						media : {word : 'Black People'}, //Name of the category presented in the task.
+						media : {word : 'Peter Dutton'}, //Name of the category presented in the task.
 						css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
@@ -74,9 +74,9 @@ define(['pipAPI', 'https://floydy10.github.io/qualtrics-custom-script/fullbiat.j
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
 				{
-					name : 'White people', 
+					name : 'Anthony Albanese', 
 					title : {
-						media : {word : 'White people'}, 
+						media : {word : 'Anthony Albanese'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
