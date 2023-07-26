@@ -57,7 +57,7 @@ define(['pipAPI', 'https://floydy10.github.io/qualtrics-custom-script/fullbiat.j
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {image : 'alb1thin.jpg'}, 
+						media : {image : 'dut1thin.jpg'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
