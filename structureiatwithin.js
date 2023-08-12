@@ -5,45 +5,45 @@ define(['pipAPI', 'https://floydy10.github.io/qualtrics-custom-script/fullbiat.j
 	return iatExtension({
 		practiceCategory1 : 
 			{
-				name : 'Flowers', //Will appear in the data.
+				name : 'Truthtellers', //Will appear in the data.
 				title : {
-					media : {word : 'Flowers'}, //Name of the category presented in the task.
+					media : {word : 'Truthtellers'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 					height : 4, //Height (because we need to know where to put the next item in the title)
 					startStimulus : { 
 					//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {word : 'Daffodil, Daisy, Lilac, Lily'}, 
+						media : {word : 'Truthteller 1, Truthteller 2, Truthteller 3, Truthteller 4'}, 
 						css : {color:'#31b404','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Daffodil'}, 
-					{word : 'Daisy'}, 
-					{word : 'Lilac'}, 
-					{word : 'Lily'}
+					{word : 'Truthteller 1'}, 
+					{word : 'Truthteller 2'}, 
+					{word : 'Truthteller 3'}, 
+					{word : 'Truthteller 4'}
 				], 
 				//Stimulus css (style of the stimuli)
 				stimulusCss : {color:'#31b404','font-size':'2em'}
 			},	
 			practiceCategory2 : 
 			{
-				name : 'Insects', 
+				name : 'Liars', 
 				title : {
-					media : {word : 'Insects'}, 
+					media : {word : 'Liars'}, 
 					css : {color:'#31b404','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Bedbug, Centipede, Flea, Moth'}, 
+						media : {word : 'Liar 1, Liar 2, Liar 3, Liar 4'}, 
 						css : {color:'#31b404','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Bedbug'}, 
-					{word : 'Centipede'}, 
-					{word : 'Flea'}, 
-					{word : 'Moth'}
+					{word : 'Liar 1'}, 
+					{word : 'Liar 2'}, 
+					{word : 'Liar 3'}, 
+					{word : 'Liar 4'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#31b404','font-size':'2em'}
