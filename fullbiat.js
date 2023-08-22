@@ -270,6 +270,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				'Keep your index fingers on the <b>I</b> and <b>E</b> keys to enable rapid responses. ' +
 				'Press the <b>I</b> key for all items that belong to the category <font color="#0000FF">focalAtt</font> and items that belong to the category <font color="#31b404">focalCat</font>.<br/>' + 
 				'Press the <b>E</b> key for items that do not belong to these categories.<br/><br/>' + 
+				'There will be <b>blockNum</b> and <b>nBlocks</b>' +
 				'Each word or image has a correct classification. ' +
 				'Please try to go as fast as possible. ' +
 				'Expect to make a few mistakes because of going fast. Thats OK. If you make a mistake a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
