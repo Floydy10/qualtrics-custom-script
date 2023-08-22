@@ -231,10 +231,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' + 
 			'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
-			'Press the other key to continue.<p/>',
+			'Press the alternative key to continue.<p/>',
 	        remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
 			'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
-			'Touch the other side to continue.<p/>',				
+			'Touch the alternative side to continue.<p/>',				
 			
 			ITIDuration : 250, //Duration between trials.
             fontColor : '#000000', //The default color used for printed messages.
@@ -283,7 +283,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				'and for items that belong to the category <font color="#31b404">focalCat</font>.<br/>' + 
 				'Put a left finger on the <b>left</b> green area for items that do not belong to these categories.<br/>' + 
 				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
-				'Press the other key to continue.<br/>' + 
+				'Press the alternative key to continue.<br/>' + 
 				'<p align="center">Touch the <b>lower </b> green area to start.</font></p></div>', 				
 			//The default feedback messages for each cutoff - 
 			//You will get a comparison feedback for each 
