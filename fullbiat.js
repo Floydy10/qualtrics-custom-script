@@ -269,11 +269,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'• Keep your index fingers on the <b>I</b> and <b>E</b> keys to enable rapid responses.<br/>' +
 				'• Press the <b>I</b> key for all items that belong to the category <font color="#0000FF">focalAtt</font> and items that belong to the category <font color="#31b404">focalCat</font>.<br/>' + 
-				'• Press the <b>E</b> key for items that do not belong to these categories.<br/><br/>' + 
+				'• Press the <b>E</b> key for items that do not belong to these categories.<br/>' + 
 				'• There will be 20 trials for parts 1-9.<br/>' +
 				'• Each word or image has a correct classification.<br/>' +
 				'• Please try to go as fast as possible.<br/>' +
-				'• Expect to make a few mistakes because of going fast. Thats OK. If you make a mistake a red <font color="#ff0000"><b>X</b></font> will appear.<br/>' + 
+				'• Expect to make a few mistakes because of going fast. Thats ok. If you make a mistake a red <font color="#ff0000"><b>X</b></font> will appear.<br/>' + 
 				'• Press the alternative key to continue.<br/><br/>' + 
 				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
             instTemplateTouch: '<div><p align="center" ' +
