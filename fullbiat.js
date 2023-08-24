@@ -266,10 +266,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			// Notice that this is HTML code.
 			instTemplate: '<div><p align="center" style="font-size:20px; font-family:arial"><br/>' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
-				'<p style="font-size:10px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
+				'<p style="font-size:15px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Now you will be asked to do 9 matching tests. Each test will involve 20 trials.<br/>' +
 				'In each trial, you will be shown an item.<br/>' +
-				'<p align="center"><b>Truthteller items</b><br/>' +
+				'<p style= "font-size:15px; text-align=center; vertical-align:bottom; margin-left:10px; font-family:arial><b>Truthteller items</b><br/>' +
 				'Truthteller 1, Truthteller 2, Truthteller 3, Truthteller 4<br/>' +
 				'<b>Truth items</b><br/>' +
 				'Honest, Authentic, Accurate, Correct<br/>' +
