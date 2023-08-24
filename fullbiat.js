@@ -267,14 +267,18 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			instTemplate: '<div><p align="center" style="font-size:20px; font-family:arial"><br/>' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'• Keep your index fingers on the <b>I</b> and <b>E</b> keys to enable rapid responses.<br/>' +
-				'• Press the <b>I</b> key for all items that belong to the category <font color="#0000FF">focalAtt</font> and items that belong to the category <font color="#31b404">focalCat</font>.<br/>' + 
-				'• Press the <b>E</b> key for items that do not belong to these categories.<br/>' + 
-				'• There will be 20 trials for parts 1-9.<br/>' +
-				'• Each word or image has a correct classification.<br/>' +
-				'• Please try to go as fast as possible.<br/>' +
-				'• Expect to make a few mistakes because of going fast. Thats ok. If you make a mistake a red <font color="#ff0000"><b>X</b></font> will appear.<br/>' + 
-				'• Press the alternative key to continue.<br/><br/>' + 
+				'Now you will be asked to do 9 matching tests. Each test will involve 20 trials.<br/>' +
+				'In each trial, you will be shown an item.<br/>' +
+				'<p align="center"><b>Truthteller items</b><br/>' +
+				'Truthteller 1, Truthteller 2, Truthteller 3, Truthteller 4<br/>' +
+				'<b>Truth items</b><br/>' +
+				'Honest, Authentic, Accurate, Correct<br/>' +
+				'Press the <b>E</b> key                    Press the <b>I</b> key<br/>' +
+				'if the item is <b>not</b>                    if the item <b>is</b> a<br/>' +
+				'a Truthteller or a Truth item.                    Truthteller or Truth item.<br/>' +
+				'Try to go as fast as possible. Keep your fingers on the <b>I</b> and <b>E</b> keys to enable rapid responses.<br/>' +
+				'Expect to make a few mistakes - thats OK.<br/>' +
+				'If you make a mistake, an <b>X</b> will appear. Please press the alternative key to proceed.' +
 				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
             instTemplateTouch: '<div><p align="center" ' +
 				'<br/><font color="#000000"><u>Part blockNum of nBlocks </u><br/></p>' + 
