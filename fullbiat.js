@@ -269,8 +269,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Now you will be asked to do 9 matching tests. Each test will involve 20 trials.<br/>' +
 				'In each trial, you will be shown an item (see above).<br/><br/>' +
-				'Press the <b>E</b> key<font color="#FFFFFF">_______________________________<font color="#000000">Press the <b>I</b> key<br/>' +
-				'if the item is <b>not</b> a<font color="#FFFFFF">_____________________________<font color="#000000">if the item <b>is</b> a<br/>' +
+				'Press the <b>E</b> key<font color="#FFFFFF">_____________________________<font color="#000000">Press the <b>I</b> key<br/>' +
+				'if the item is <b>not</b> a<font color="#FFFFFF">____________________________<font color="#000000">if the item <b>is</b> a<br/>' +
 				'Truthteller or a Truth item.<font color="#FFFFFF">______________________<font color="#000000">Truthteller or Truth item.<br/><br/>' +
 				'Try to go as fast as possible. Keep your fingers on the <b>I</b> and <b>E</b> keys to enable rapid responses.<br/>' +
 				'Expect to make a few mistakes - thats OK. If you make a mistake, an <b>X</b> will appear. Please press the alternative key to proceed.<br/>' +
