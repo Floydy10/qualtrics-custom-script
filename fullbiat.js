@@ -269,11 +269,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Now you will be asked to do 9 matching tests. Each test will involve 20 trials.<br/>' +
 				'In each trial, you will be shown an item (see above).<br/><br/>' +
-				'<div class="row">' +
-					'<div class="column" style="background-color: #aaa;">' +
-						'<p>Press the <E></b> key</p> if the item does <b>not</b> belong to <font color="#FFFFFF"> the category focalCat or focalAtt.' +
+				'<div style="display: flex; justify-content: space-between;">' +
+					'<div style="flex: 1; background-color:#aaa;">' +
+						'<p>Press the <b>E</b> key</p> if the item does <b>not</b> belong to the category focalCat or focalAtt.' +
 					'</div>' +
-					'<div class="column" style="background-color: #bbb;">' +
+					'<div style="flex: 1; background-color: #bbb;">' +
 						'<p>Press the <b>I</b> key<br/></p> if the item <b>does</b><br/> belong to the category focalCat or focalAtt.' +
 					'</div>' +
 				'</div>' +
