@@ -141,11 +141,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				name : 'Truth', 
 				title : {
 					media : {word : 'Truth'}, 
-					css : {color:'#0000FF','font-size':'1.8em'}, 
+					css : {color:'#000000','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
 						media : {word : 'Honest, Authentic, Accurate, Correct'}, 
-						css : {color:'#0000FF','font-size':'1em'}, 
+						css : {color:'#000000','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
@@ -156,18 +156,18 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 					{word : 'Correct'}
 				], 
 				//Stimulus css
-				stimulusCss : {color:'#0000FF','font-size':'2em'}
+				stimulusCss : {color:'#000000','font-size':'2em'}
 			},	
 			attribute2 : 
 			{
 				name : 'Lie', 
 				title : {
 					media : {word : 'Lie'}, 
-					css : {color:'#0000FF','font-size':'1.8em'}, 
+					css : {color:'#000000','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
 						media : {word : 'Deceptive, Fake, Biased, Wrong'}, 
-						css : {color:'#0000FF','font-size':'1em'}, 
+						css : {color:'#000000','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
@@ -178,7 +178,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 					{word : 'Fake'}
 				], 
 				//Stimulus css
-				stimulusCss : {color:'#0000FF','font-size':'2em'} 
+				stimulusCss : {color:'#000000','font-size':'2em'} 
 			},
 			base_url : {//Where are your images at?
 			image : 'https://floydy10.github.io/qualtrics-custom-script/images/'
