@@ -24,7 +24,7 @@ define(['pipAPI', 'https://floydy10.github.io/qualtrics-custom-script/fullbiat.j
 					{word : 'Truthteller 4'}
 				], 
 				//Stimulus css (style of the stimuli)
-				stimulusCss : {color:'#0000000','font-size':'2em'}
+				stimulusCss : {color:'#000000','font-size':'2em'}
 			},	
 			practiceCategory2 : 
 			{
