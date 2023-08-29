@@ -271,15 +271,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				'In each trial, you will be shown an item (see above).<br/><br/>' +
 				'<div class="row">' +
 					'<div class="column" style="background-color: #aaa;">' +
-						'<p>Some text...</p>' +
+						'<p>Press the <E></b> key</p> if the item does <b>not</b> belong to <font color="#FFFFFF"> the category focalCat or focalAtt.' +
 					'</div>' +
 					'<div class="column" style="background-color: #bbb;">' +
-						'<p>Some text..</p>' +
+						'<p>Press the <b>I</b> key<br/></p> if the item <b>does</b><br/> belong to the category focalCat or focalAtt.' +
 					'</div>' +
 				'</div>' +
-				'Press the <b>E</b> key<font color="#FFFFFF">______________________________<font color="#000000">Press the <b>I</b> key<br/>' +
-				'if the item does <b>not</b> belong to <font color="#FFFFFF">____________________________<font color="#000000">if the item <b>does</b><br/> belong to' +
-				'the category focalCat or focalAtt.<font color="#FFFFFF">______________________<font color="#000000">the category focalCat or focalAtt.<br/><br/>' +
 				'Try to go as fast as possible. Keep your fingers on the <b>I</b> and <b>E</b> keys to enable rapid responses.<br/>' +
 				'Expect to make a few mistakes - thats OK. If you make a mistake, an <b>X</b> will appear. Please press the alternative key to proceed.<br/>' +
 				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
