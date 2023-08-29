@@ -265,19 +265,19 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			// blockNum, nBlocks, focalAtt, focalCat.
 			// Notice that this is HTML code.
 			instTemplate: '<div><p align="center" style="font-size:20px; font-family:arial"><br/>' +
-				'<font color="#000000"><u>Part blockNum of nBlocks</u><br/><br/></p>' + 
+				'<font color="#000000"><u>Part blockNum of nBlocks</u><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Now you will be asked to do 9 matching tests. Each test will involve 20 trials.<br/>' +
 				'In each trial, you will be shown an item (see above).<br/><br/>' +
 				'<div style="display: flex; justify-content: space-between;">' +
-					'<div style="flex: 1; background-color:#aaa;">' +
+					'<div style="flex: 1; background-color:#aaa; text-align: left">' +
 						'<p>Press the <b>E</b> key</p> if the item does <b>not</b> belong to the category focalCat or focalAtt.' +
 					'</div>' +
-					'<div style="flex: 1; background-color: #bbb;">' +
+					'<div style="flex: 1; background-color: #bbb; text-align: left">' +
 						'<p>Press the <b>I</b> key<br/></p> if the item <b>does</b><br/> belong to the category focalCat or focalAtt.' +
 					'</div>' +
 				'</div>' +
-				'Try to go as fast as possible. Keep your fingers on the <b>I</b> and <b>E</b> keys to enable rapid responses.<br/>' +
+				'<p align="left">Try to go as fast as possible. Keep your fingers on the <b>I</b> and <b>E</b> keys to enable rapid responses.<br/>' +
 				'Expect to make a few mistakes - thats OK. If you make a mistake, an <b>X</b> will appear. Please press the alternative key to proceed.<br/>' +
 				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
             instTemplateTouch: '<div><p align="center" ' +
