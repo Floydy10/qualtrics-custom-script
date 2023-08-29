@@ -267,7 +267,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			instTemplate: '<div><p align="center" style="font-size:20px; font-family:arial"><br/>' +
 				'<font color="#000000"><u>Part blockNum of nBlocks</u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Now you will be asked to do 9 matching tests. Each test will involve 20 trials.<br/>' +
+				'instNum<br/>' +
 				'In each trial, you will be shown an item (see above).<br/>' +
 				'<div style="display: flex; justify-content: space-between;">' +
 					'<div style="flex: 1; background-color:#aaa; text-align: left">' +
@@ -1023,9 +1023,16 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 		{
 			nBlocks++;
 			instTemplateVar = isTouch ? piCurrent.instTemplateTouch : piCurrent.instTemplate;
+			
+			if (focal Attribute === 'Anthony Albanese' or 'Peter Dutton') {
+				instNum = 'This test will involve 20 trials.';
+			} else {
+				instNum = 'Now you will be asked to do 9 matching tests. Each test will involve 20 trials.';
+			}
+			
 			var pracParams = {
 				 instTemplate: instTemplateVar, 
-				focalAtt:focalAttribute, 
+				focalAtt:focalAttribute,
 				focalCatName:piCurrent.practiceCategory1.name, 
 				focalCatTitle:piCurrent.practiceCategory1.title, 
 				nBlocks : nBlocks, 
