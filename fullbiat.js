@@ -265,7 +265,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			// blockNum, nBlocks, focalAtt, focalCat.
 			// Notice that this is HTML code.
 			instTemplate: '<div><p align="center" style="font-size:20px; font-family:arial"><br/><br/>' +
-				'<font color="#000000"><u>Part blockNum of nBlocks</u><br/><br/></p>' + 
+				'<font color="#FFFFFF">____<br/>' +
+				'<font color="#000000"><u>Part blockNum of nBlocks</u><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'There are 9 matching tests. Each matching test involves 20 trials. In each trial you will be shown an item' +
 				'<div style="display: flex; justify-content: space-between;">' +
