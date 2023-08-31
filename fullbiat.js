@@ -279,7 +279,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				'</div>' +
 				'<p align="left">Try to go as fast as possible. Keep your fingers on the <b>I</b> and <b>E</b> keys to enable rapid responses.<br/>' +
 				'Expect to make a few mistakes - that&apos;s OK. If you make a mistake, an <b>X</b> will appear. Please press the alternative key to proceed.<br/>' +
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
+				'<p align="center"><u>Press the <b>space bar</b> when you are ready to start.</u></font></p></div>', 
             instTemplateTouch: '<div><p align="center" ' +
 				'<br/><font color="#000000"><u>Part blockNum of nBlocks </u><br/></p>' + 
 				'<p align="left" style="margin-left:5px"> ' +
