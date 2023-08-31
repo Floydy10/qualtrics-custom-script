@@ -264,7 +264,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			// Some variables will be replaced with their values: 
 			// blockNum, nBlocks, focalAtt, focalCat.
 			// Notice that this is HTML code.
-			instTemplate: '<div><p align="center" style="font-size:20px; font-family:arial"><br/><br/>' +
+			instTemplate: '<div><p align="center" style="font-size:20px; font-family:Times New Roman,serif;"><br/><br/>' +
 				'<font color="#FFFFFF">____<br/>' +
 				'<font color="#000000"><u>Part blockNum of nBlocks</u><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
