@@ -270,16 +270,16 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:Times New Roman,serif">' +
 				'There are 9 matching tests. Each matching test involves 20 trials. In each trial you will be shown an item' +
 				'<div style="display: flex; justify-content: space-between;">' +
-					'<div style="flex: 1; background-color:#aaa; text-align: left">' +
+					'<div style="flex: 1; background-color:#aaa; text-align: left; font-size: 20px;">' +
 						'<p>Press the <b>E</b> key</p> if the item does <b>not</b> belong to the category focalCat or focalAtt.' +
 					'</div>' +
-					'<div style="flex: 1; background-color: #bbb; text-align: left">' +
+					'<div style="flex: 1; background-color: #bbb; text-align: left; font-size: 20px;">' +
 						'<p>Press the <b>I</b> key<br/></p> if the item <b>does</b><br/> belong to the category focalCat or focalAtt.' +
 					'</div>' +
 				'</div>' +
-				'<p align="left">Try to go as fast as possible. Keep your fingers on the <b>I</b> and <b>E</b> keys to enable rapid responses.<br/>' +
+				'<p align="left" style="font-size:20px;">Try to go as fast as possible. Keep your fingers on the <b>I</b> and <b>E</b> keys to enable rapid responses.<br/>' +
 				'Expect to make a few mistakes - that&apos;s OK. If you make a mistake, an <b>X</b> will appear. Please press the alternative key to proceed.<br/>' +
-				'<p align="center"><u>Press the <b>space bar</b> when you are ready to start.</u></font></p></div>', 
+				'<p align="center" style="font-size:20px;"><u>Press the <b>space bar</b> when you are ready to start.</u></font></p></div>', 
             instTemplateTouch: '<div><p align="center" ' +
 				'<br/><font color="#000000"><u>Part blockNum of nBlocks </u><br/></p>' + 
 				'<p align="left" style="margin-left:5px"> ' +
