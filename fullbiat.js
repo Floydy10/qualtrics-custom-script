@@ -277,7 +277,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 						'<p>Press the <b>I</b> key<br/></p> if the item <b>does</b><br/> belong to the category focalCat or focalAtt.' +
 					'</div>' +
 				'</div>' +
-				'</br></br><p align="left" style="font-size:20px;">Try to go as fast as possible. Keep your fingers on the <b>I</b> and <b>E</b> keys to enable rapid responses.<br/>' +
+				'</br><p align="left" style="font-size:20px;">Try to go as fast as possible. Keep your fingers on the <b>I</b> and <b>E</b> keys to enable rapid responses.<br/>' +
 				'Expect to make a few mistakes - that&apos;s OK. If you make a mistake, an <b>X</b> will appear. Please press the alternative key to proceed.<br/>' +
 				'<p align="center" style="font-size:20px;"><u>Press the <b>space bar</b> when you are ready to start.</u></font></p></div>', 
             instTemplateTouch: '<div><p align="center" ' +
