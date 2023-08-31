@@ -264,11 +264,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			// Some variables will be replaced with their values: 
 			// blockNum, nBlocks, focalAtt, focalCat.
 			// Notice that this is HTML code.
-			instTemplate: '<div><p align="center" style="font-size:20px; font-family:arial"><br/>' +
+			instTemplate: '<div><p align="center" style="font-size:20px; font-family:arial"><br/><br/>' +
 				'<font color="#000000"><u>Part blockNum of nBlocks</u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'You will be asked to do 9 matching tests. Each test will involve 20 trials.<br/>' +
-				'In each trial, you will be shown an item (see above).<br/>' +
+				'There are 9 matching tests. Each matching test involves 20 trials. In each trial you will be shown an item' +
 				'<div style="display: flex; justify-content: space-between;">' +
 					'<div style="flex: 1; background-color:#aaa; text-align: left">' +
 						'<p>Press the <b>E</b> key</p> if the item does <b>not</b> belong to the category focalCat or focalAtt.' +
@@ -278,7 +277,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 					'</div>' +
 				'</div>' +
 				'<p align="left">Try to go as fast as possible. Keep your fingers on the <b>I</b> and <b>E</b> keys to enable rapid responses.<br/>' +
-				'Expect to make a few mistakes - thats OK. If you make a mistake, an <b>X</b> will appear. Please press the alternative key to proceed.<br/>' +
+				'Expect to make a few mistakes - that&apos;s OK. If you make a mistake, an <b>X</b> will appear. Please press the alternative key to proceed.<br/>' +
 				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
             instTemplateTouch: '<div><p align="center" ' +
 				'<br/><font color="#000000"><u>Part blockNum of nBlocks </u><br/></p>' + 
