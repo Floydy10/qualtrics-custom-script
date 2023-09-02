@@ -1,6 +1,6 @@
 ```{r}
 #Change to your own directory (where you keep the data file)
-dir = 'C:\Users\scotf\Desktop\DigitalArchives4\Uni\Thesis2\Results and Discussion\prelimdata'
+dir = 'C:/Users/scotf/Desktop/DigitalArchives4/Uni/Thesis2/Results and Discussion/prelimdata'
 ```
 
 ```{r}
