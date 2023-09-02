@@ -1,6 +1,6 @@
 ```{r}
 #Change to your own directory (where you keep the data file)
-dir = 'C:\\Users\\yoav\\Documents\\bigfiles\\qualtrics.iat\\gal.elinor\\raw'
+dir = 'C:\Users\scotf\Desktop\DigitalArchives4\Uni\Thesis2\Results and Discussion\prelimdata'
 ```
 
 ```{r}
@@ -55,18 +55,14 @@ qiat.parse = function(df, id, data){
 ###Read your file here.
 
 #We're reading two files from our two examples.
-df.no = read.csv(paste(dir, 'exampleBIAT_update.csv',sep = '\\'))
-df.img = read.csv(paste(dir, 'exampleBIATimage_update.csv',sep = '\\'))
+df.no = read.csv(paste(dir, 'AnalyseThis.csv',sep = '\\'))
 ```
 
 ```{r}
-#We bind the two datasets together, but you're probably going to have only one file
-df <- rbind(df.no[,c('StartDate','EndDate','ResponseId', 'Q2')], df.img[,c('StartDate','EndDate','ResponseId', 'Q2')])
 #Q2 is the question that displayed the IAT and all the IAT data was saved under Q2.
 #If the text 'block' does not appear in Q2's response, then the IAT data were not saved in that question. Somehow, the IAT was not completed, or perhaps this is from an earlier stage before your IAT was setup correctly.
-df <- df[which(grepl('block', df$Q2)),]
+df <- df[which(grepl('block', df$Q177)),]
 #NO NEED FOR THE NEXT LINE IN YOUR OWN DATA. In our test data, the other rows had data with some errors (testing while developing the qbiat)
-df = df[c(4,7),]
 
 ```
 
