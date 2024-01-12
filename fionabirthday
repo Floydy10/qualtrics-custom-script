@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Fiona!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #ff6347;
+        }
+
+        p {
+            color: #333333;
+        }
+
+        .jibjab-link {
+            display: block;
+            margin: 15px 0;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Happy Birthday, Fiona!</h1>
+        <p>Wishing you a fantastic day filled with joy and celebration. May all your dreams come true!</p>
+        
+        <!-- JibJab Links -->
+        <a class="jibjab-link" href="https://www.jibjab.com/view/make/house-party-fitz-birthday-starring-you-ecard/bcb26bef-751f-4370-873c-77a5db91c6eb" target="_blank">House Party Fitz Birthday</a>
+        <a class="jibjab-link" href="https://www.jibjab.com/view/make/mmm-bop-hanson-birthday/3db6b23e-c6fe-4229-bd10-2963da0cd2b4" target="_blank">Mmm Bop Hanson Birthday</a>
+        <a class="jibjab-link" href="https://www.jibjab.com/view/make/get-the-party-started-pink-birthday-starring-you-vertical/19e613d5-e28f-44b1-8c0c-436c18f9706c" target="_blank">Get the Party Started Pink Birthday</a>
+        <a class="jibjab-link" href="https://www.jibjab.com/view/make/final-countdown-europe-bday-starring-you-ecard/4c216779-c8e2-46cb-b575-8baf096d8a40" target="_blank">Final Countdown Europe Bday</a>
+        <a class="jibjab-link" href="https://www.jibjab.com/view/make/hold-on-wilson-phillips-birthday-starring-you-ecard/652bca57-e737-47fe-941a-9228c8a7a548" target="_blank">Hold On Wilson Phillips Birthday</a>
+        <a class="jibjab-link" href="https://www.jibjab.com/view/make/here_it_goes_again_okgo_birthday/9febc31f-dd09-4a9d-909c-3275194d45a6" target="_blank">Here It Goes Again OKGo Birthday</a>
+    </div>
+
+</body>
+</html>
